@@ -29,8 +29,10 @@ class FirstActivity : AppCompatActivity() {
                 type = "text/plain"
             }
 
-            val shareIntent = Intent.createChooser(sendIntent, null)
-            startActivityForResult(shareIntent,100)
+            val shareIntent = Intent.createChooser(sendIntent, "Куда отправим текст")
+            if (sendIntent.resolveActivity(packageManager) != null) {
+                startActivityForResult(shareIntent,100)
+            }
         }
     }
 
