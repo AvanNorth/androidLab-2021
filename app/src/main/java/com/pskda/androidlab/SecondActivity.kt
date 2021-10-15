@@ -17,6 +17,7 @@ class SecondActivity: AppCompatActivity() {
         }
 
         val text:String? = intent.getStringExtra(Intent.EXTRA_TEXT)
+        setResult(RESULT_OK)
         binding.textView.text = text
     }
 }
