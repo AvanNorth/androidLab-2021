@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidLab</string>
+    <string name="notification_channel_title">my first channel</string>
+    <string name="notification_channel_desc">description about this channel</string>
 </resources>
