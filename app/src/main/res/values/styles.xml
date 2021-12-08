@@ -7,4 +7,74 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DefaultStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/width_bigger</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ItemCover">
+        <item name="android:layout_width">@dimen/spacing_huge</item>
+        <item name="android:layout_height">@dimen/spacing_huge</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+    </style>
+
+    <style name="ItemTitle">
+        <item name="android:layout_width">@dimen/spacing_none</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="ItemAuthor">
+        <item name="android:layout_width">@dimen/spacing_none</item>
+        <item name="android:layout_height">@dimen/spacing_large</item>
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginTop">@dimen/spacing_tiniest</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">@dimen/text_smaller</item>
+    </style>
+
+    <style name="TrackTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/width_normal</item>
+        <item name="android:layout_marginStart">@dimen/spacing_very_large</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_very_large</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="TrackAuthor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/spacing_very_large</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_very_large</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="TrackCover">
+        <item name="android:layout_width">@dimen/width_large</item>
+        <item name="android:layout_height">@dimen/width_large</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginTop">@dimen/spacing_very_huge</item>
+    </style>
+
+    <style name="NavigationIcons">
+        <item name="android:layout_width">@dimen/width_normal</item>
+        <item name="android:layout_height">@dimen/width_normal</item>
+        <item name="background">@color/colorAccent</item>
+    </style>
+
 </resources>
